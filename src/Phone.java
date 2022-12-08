@@ -44,9 +44,8 @@ public class Phone {
         this.weight = weight;
     }
 
-    public String receiveCall (String name) {
-        System.out.println("Calling " + name + "number " + getNumber());
-        return getNumber();
+    public void receiveCall (String name) {
+        System.out.println("Calling " + name);
     }
     public void receiveCall (String name, String number) {
         System.out.println("Calling " + name + "number " + number);
